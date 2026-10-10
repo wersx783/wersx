@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wersx — Разработка сайтов и ботов</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ====== ШАПКА ====== -->
+    <header class="header">
+        <div class="container header-inner">
+            <a href="#" class="logo">wersx</a>
+            <nav class="nav">
+                <a href="#services">Услуги</a>
+                <a href="#about">О компании</a>
+                <a href="#contact">Контакты</a>
+            </nav>
+            <a href="#contact" class="btn btn-primary">Оставить заявку</a>
+        </div>
+    </header>
+
+    <!-- ====== ГЛАВНЫЙ ЭКРАН ====== -->
+    <section class="hero">
+        <div class="container">
+            <h1 class="hero-title">Разрабатываем сайты и Telegram-ботов под ключ</h1>
+            <p class="hero-text">
+                Помогаем бизнесу расти: создаём лендинги, интернет-магазины,
+                ботов и системы поддержки. Работаем быстро и по делу.
+            </p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary">Оставить заявку</a>
+                <a href="#services" class="btn btn-secondary">Подробнее</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== УСЛУГИ ====== -->
+    <section id="services" class="section">
+        <div class="container">
+            <h2 class="section-title">Наши услуги</h2>
+            <div class="cards">
+                <div class="card">
+                    <h3>Разработка сайтов</h3>
+                    <p>Лендинги, корпоративные сайты, интернет-магазины. Адаптив, скорость, SEO.</p>
+                </div>
+                <div class="card">
+                    <h3>Telegram-боты</h3>
+                    <p>Боты для продаж, поддержки, автоматизации. Интеграция с CRM и платежами.</p>
+                </div>
+                <div class="card">
+                    <h3>Техническая поддержка</h3>
+                    <p>Обслуживание сайтов, обновления, мониторинг, помощь 24/7.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== О КОМПАНИИ ====== -->
+    <section id="about" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">О компании</h2>
+            <p class="about-text">
+                wersx — команда разработчиков и дизайнеров.
+                Мы работаем с 2026 года и сделали еще нихуя 
+            </p>
+        </div>
+    </section>
+
+    <!-- ====== ФОРМА ====== -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Оставить заявку</h2>
+            <form class="form" id="contactForm" novalidate>
+                <div class="form-group">
+                    <label for="name">Имя</label>
+                    <input type="text" id="name" name="name" placeholder="Ваше имя" required>
+                    <span class="error" id="nameError"></span>
+                </div>
+                <div class="form-group">
+                    <label for="contact">Telegram или телефон</label>
+                    <input type="text" id="contact" name="contact" placeholder="@username или +7..." required>
+                    <span class="error" id="contactError"></span>
+                </div>
+                <button type="submit" class="btn btn-primary btn-full">Отправить</button>
+                <div class="form-success" id="formSuccess">Заявка отправлена ✅</div>
+            </form>
+        </div>
+    </section>
+
+    <!-- ====== ПОДВАЛ ====== -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026 wersx. Все права защищены.</p>
+            <p class="footer-contacts">
+                📞 <a href="tel:+79910750812">+7 991 075-08-12</a> ·
+                ✈️ <a href="https://t.me/wersxxxx" target="_blank">@wersxxxx</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
